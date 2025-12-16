@@ -1,0 +1,23 @@
+# Dépendances et caches
+node_modules/
+venv/
+__pycache__/
+
+# Fichiers de build et de distribution
+dist/
+build/
+
+# Fichiers de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+ 
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers d'environnement (si tu en avais)
+.env
+.env.local
+ *.pdf
