@@ -20,4 +20,4 @@ Thumbs.db
 # Fichiers d'environnement (si tu en avais)
 .env
 .env.local
- *.pdf
+*.pdf
