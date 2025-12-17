@@ -17,7 +17,6 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Fichiers d'environnement (si tu en avais)
+# Fichiers d'environnement 
 .env
 .env.local
-/Test-stage.pdf
