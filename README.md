@@ -49,7 +49,8 @@ Le backend expose les deux endpoints suivants :
 1. Placez-vous dans le dossier `backend` avec l'environnement virtuel activé.
 2. Lancez `pytest` : 
     pytest
-**B) Tests du frontend**
+   
+**B) Tests du composant SeachFilter.jsx**
 1. Placez-vous dans le dossier `file-downloader`.
 2. Lancez `vitest` via le script npm : 
     npm test
