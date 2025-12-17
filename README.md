@@ -32,6 +32,7 @@ Le projet étant séparé en deux parties, il faut installer les dépendances po
 2. Lancer le serveur Flask : 
     flask --app backend run
 3. Le backend sera accessible à l'adresse http://localhost:5000
+   
 **B) Lancer le frontend**
 1. Assurez-vous d'etre dans le dossier `file-downloader`.
 2. Lancer le de développement Vite : 
