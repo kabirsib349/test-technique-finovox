@@ -23,7 +23,7 @@ Le projet étant séparé en deux parties, il faut installer les dépendances po
 **B) Frontend (React)**
 1. Dans un autre terminal, naviguez jusqu'au dossier `file-downloader` : 
     cd file-downloader
-2. Installer les dépendances Node.js
+2. Installer les dépendances Node.js :
     npm install
 
 ## 3. Commandes pour lancer l'application
