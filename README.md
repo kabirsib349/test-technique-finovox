@@ -35,7 +35,7 @@ Le projet étant séparé en deux parties, il faut installer les dépendances po
    
 **B) Lancer le frontend**
 1. Assurez-vous d'etre dans le dossier `file-downloader`.
-2. Lancer le de développement Vite : 
+2. Lancer le serveur de développement Vite : 
     npm run dev
 3. L'application sera accessible à l'adresse http://localhost:5173 (ou une autre adresse indiquée par Vite).
 
