@@ -10,6 +10,7 @@ Avant de commencer, assurez-vous d'avoir installé:
 * **Python** (version 3.10 ou supérieure)
 ### Installation des dépendances
 Le projet étant séparé en deux parties, il faut installer les dépendances pour chaque partie.
+
 **A) Backend (Python)**
 1. Naviguez jusqu'au dossier `backend` : 
     cd backend
@@ -18,6 +19,7 @@ Le projet étant séparé en deux parties, il faut installer les dépendances po
 * Activer l'environnement avec la commande suivante (sur Windows PowerShell) : .\venv\Scripts\Activate
 3. Installer les dépendances depuis le fichier `requirements.txt` :
     pip install -r requirements.txt
+  
 **B) Frontend (React)**
 1. Dans un autre terminal, naviguez jusqu'au dossier `file-downloader` : 
     cd file-downloader
