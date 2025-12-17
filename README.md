@@ -56,7 +56,7 @@ Le backend expose les deux endpoints suivants :
     npm test
 
 ## 6. Choix Technique & UX
-* **Frontend** : L'utilisation de **React** avec **Material UI** a permis de construire rapidement une interface réactive et esthétique. Grace aux principes de React sur la décomposition du code en plusieurs composants, nous pouvons facilement lire et maintenir le code. Les hooks personnalisés (`useFileBrowser`, `useFileDownloader`) séparent la logique de l'affichage pour une meilleure maintenabilité. L'expérience utilisateur est enrichie par des indicateurs de chargement (skeletons), un feedback visuel détaillé pour chaque téléchargement et un mode sombre.
+* **Frontend** : L'utilisation de **React** avec **Material UI** a permis de construire rapidement une interface réactive et esthétique. Grace au principe de React sur la décomposition du code en plusieurs composants, on peut facilement lire et maintenir le code. Les hooks personnalisés (`useFileBrowser`, `useFileDownloader`) séparent la logique de l'affichage pour une meilleure maintenabilité. L'expérience utilisateur est enrichie par des indicateurs de chargement (skeletons), un feedback visuel détaillé pour chaque téléchargement et un mode sombre.
 * **Backend** : **Flask** a été choisi pour sa simplicité et sa légèreté, ce qui est idéal pour une API avec peu de routes comme la notre. La sécurité des téléchargements est assurée par la fonction `send_from_directory` de Flask.
 
 
