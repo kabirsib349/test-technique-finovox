@@ -66,7 +66,7 @@ const FileList = ({files, downloadStatus, handleDownload})=>{
 
                 <ListItemText
                   primary={file.name}
-                  secondary={`Taille: ${formatBytes(file.size)} — Modifié le: ${formatDate(file.last_modified)}`}
+                  secondary={`Taille: ${formatBytes(file.size)} - Modifié le: ${formatDate(file.last_modified)}`}
                 />
               </ListItem>
               {index < files.length - 1 && <Divider/>}
