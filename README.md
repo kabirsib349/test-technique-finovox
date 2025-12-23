@@ -10,6 +10,7 @@ Avant de commencer, assurez-vous d'avoir installé:
 * **Python** (version 3.10 ou supérieure)
 ### Installation des dépendances
 Le projet étant séparé en deux parties, il faut installer les dépendances pour chaque partie.
+
 **A) Backend (Python)**
 1. Naviguez jusqu'au dossier `backend` : 
     cd backend
@@ -18,10 +19,11 @@ Le projet étant séparé en deux parties, il faut installer les dépendances po
 * Activer l'environnement avec la commande suivante (sur Windows PowerShell) : .\venv\Scripts\Activate
 3. Installer les dépendances depuis le fichier `requirements.txt` :
     pip install -r requirements.txt
+  
 **B) Frontend (React)**
 1. Dans un autre terminal, naviguez jusqu'au dossier `file-downloader` : 
     cd file-downloader
-2. Installer les dépendances Node.js
+2. Installer les dépendances Node.js :
     npm install
 
 ## 3. Commandes pour lancer l'application
@@ -30,9 +32,10 @@ Le projet étant séparé en deux parties, il faut installer les dépendances po
 2. Lancer le serveur Flask : 
     flask --app backend run
 3. Le backend sera accessible à l'adresse http://localhost:5000
+   
 **B) Lancer le frontend**
 1. Assurez-vous d'etre dans le dossier `file-downloader`.
-2. Lancer le de développement Vite : 
+2. Lancer le serveur de développement Vite : 
     npm run dev
 3. L'application sera accessible à l'adresse http://localhost:5173 (ou une autre adresse indiquée par Vite).
 
@@ -46,13 +49,14 @@ Le backend expose les deux endpoints suivants :
 1. Placez-vous dans le dossier `backend` avec l'environnement virtuel activé.
 2. Lancez `pytest` : 
     pytest
-**B) Tests du frontend**
+   
+**B) Tests du composant SeachFilter.jsx**
 1. Placez-vous dans le dossier `file-downloader`.
 2. Lancez `vitest` via le script npm : 
     npm test
 
 ## 6. Choix Technique & UX
-* **Frontend** : L'utilisation de **React** avec **Material UI** a permis de construire rapidement une interface réactive et esthétique. Grace aux principes de React sur la décomposition du code en plusieurs composants, nous pouvons facilement lire et maintenir le code. Les hooks personnalisés (`useFileBrowser`, `useFileDownloader`) séparent la logique de l'affichage pour une meilleure maintenabilité. L'expérience utilisateur est enrichie par des indicateurs de chargement (skeletons), un feedback visuel détaillé pour chaque téléchargement et un mode sombre.
+* **Frontend** : L'utilisation de **React** avec **Material UI** a permis de construire rapidement une interface réactive et esthétique. Grace au principe de React sur la décomposition du code en plusieurs composants, on peut facilement lire et maintenir le code. Les hooks personnalisés (`useFileBrowser`, `useFileDownloader`) séparent la logique de l'affichage pour une meilleure maintenabilité. L'expérience utilisateur est enrichie par des indicateurs de chargement (skeletons), un feedback visuel détaillé pour chaque téléchargement et un mode sombre.
 * **Backend** : **Flask** a été choisi pour sa simplicité et sa légèreté, ce qui est idéal pour une API avec peu de routes comme la notre. La sécurité des téléchargements est assurée par la fonction `send_from_directory` de Flask.
 
 
